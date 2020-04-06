@@ -1,0 +1,19 @@
+<mvc:View
+   controllerName="sap.demo2020.controller.propertybind"
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc">
+
+   	<Input
+		value="{bindinglocal>/bindingModel/company/name}"
+	/>
+
+			<Toolbar>
+				<ToolbarSpacer/>
+				<Button text="Show Model" press="onPress" />
+				<ToolbarSpacer/>
+			    <Button text="Get Something from CAL Fiddler Change launchpad" press="onPressCAL" />
+				<ToolbarSpacer/>
+			    <Button text="Get Something from ES5 Fiddler Change launchpad" press="onPressES5" />				
+			</Toolbar>    
+
+</mvc:View>
